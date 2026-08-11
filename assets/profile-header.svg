@@ -100,7 +100,7 @@
     <text x="72" y="380" fill="#7E8DA6" font-size="15">Business logic • Data integrity • Arabic-first experiences • Reliable delivery</text>
 
     <text x="72" y="431" fill="#6E7E97" font-size="12" font-weight="700" letter-spacing="2">CURRENT FOCUS</text>
-    <g class="mono" transform="translate(195 431)" font-size="15" font-weight="700">
+    <g class="mono" transform="translate(225 431)" font-size="15" font-weight="700">
       <text class="keyword kw-1" fill="#58A6FF">SAAS PRODUCTS_</text>
       <text class="keyword kw-2" fill="#A371F7">BUSINESS SYSTEMS_</text>
       <text class="keyword kw-3" fill="#3FB950">AUTOMATION WORKFLOWS_</text>
