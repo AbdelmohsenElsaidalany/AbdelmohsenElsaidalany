@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" role="img" aria-labelledby="title desc">
+  <title id="title">Animated technology ecosystem</title>
+  <desc id="desc">Three animated lanes showing Abdelmohsen's build, data, and delivery technologies.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070B14"/><stop offset="1" stop-color="#0B1522"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#58A6FF"/><stop offset=".5" stop-color="#A371F7"/><stop offset="1" stop-color="#3FB950"/></linearGradient>
+    <linearGradient id="edgeFade" x1="0" y1="0" x2="1" y2="0"><stop stop-color="white" stop-opacity="0"/><stop offset=".08" stop-color="white"/><stop offset=".92" stop-color="white"/><stop offset="1" stop-color="white" stop-opacity="0"/></linearGradient>
+    <mask id="laneMask"><rect x="185" y="0" width="975" height="370" fill="url(#edgeFade)"/></mask>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#6E7681" stroke-width=".6" opacity=".1"/></pattern>
+    <style>
+      .ui { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .mono { font-family: "SFMono-Regular", Consolas, monospace; }
+      .equalizer-a { animation:eqA 1.8s ease-in-out infinite; transform-box:fill-box; transform-origin:bottom; }
+      .equalizer-b { animation:eqB 1.4s ease-in-out infinite; transform-box:fill-box; transform-origin:bottom; }
+      .equalizer-c { animation:eqC 2.1s ease-in-out infinite; transform-box:fill-box; transform-origin:bottom; }
+      .border { stroke-dasharray:14 10; animation:border 9s linear infinite; }
+      @keyframes eqA { 0%,100%{transform:scaleY(.38)} 50%{transform:scaleY(1)} }
+      @keyframes eqB { 0%,100%{transform:scaleY(.8)} 50%{transform:scaleY(.28)} }
+      @keyframes eqC { 0%,100%{transform:scaleY(.5)} 50%{transform:scaleY(.9)} }
+      @keyframes border { to{stroke-dashoffset:-240} }
+      @media (prefers-reduced-motion: reduce) { * { animation:none !important; } }
+    </style>
+
+    <g id="buildSet" class="ui">
+      <g transform="translate(0 0)"><rect width="160" height="52" rx="14" fill="#111B2A" stroke="#303D53"/><circle cx="26" cy="26" r="11" fill="#777BB4"/><text x="26" y="30" text-anchor="middle" fill="white" font-size="8" font-weight="800">PHP</text><text x="48" y="31" fill="#E6EDF3" font-size="14" font-weight="700">PHP</text></g>
+      <g transform="translate(176 0)"><rect width="185" height="52" rx="14" fill="#111B2A" stroke="#303D53"/><circle cx="27" cy="26" r="11" fill="#F7DF1E"/><text x="27" y="31" text-anchor="middle" fill="#111" font-size="11" font-weight="900">JS</text><text x="50" y="31" fill="#E6EDF3" font-size="14" font-weight="700">JavaScript</text></g>
+      <g transform="translate(377 0)"><rect width="185" height="52" rx="14" fill="#111B2A" stroke="#303D53"/><circle cx="27" cy="26" r="11" fill="#3178C6"/><text x="27" y="31" text-anchor="middle" fill="white" font-size="10" font-weight="900">TS</text><text x="50" y="31" fill="#E6EDF3" font-size="14" font-weight="700">TypeScript</text></g>
+      <g transform="translate(578 0)"><rect width="160" height="52" rx="14" fill="#111B2A" stroke="#303D53"/><circle cx="27" cy="26" r="11" fill="#E34F26"/><text x="27" y="31" text-anchor="middle" fill="white" font-size="10" font-weight="900">5</text><text x="50" y="31" fill="#E6EDF3" font-size="14" font-weight="700">HTML5</text></g>
+      <g transform="translate(754 0)"><rect width="155" height="52" rx="14" fill="#111B2A" stroke="#303D53"/><circle cx="27" cy="26" r="11" fill="#1572B6"/><text x="27" y="31" text-anchor="middle" fill="white" font-size="8" font-weight="900">CSS</text><text x="50" y="31" fill="#E6EDF3" font-size="14" font-weight="700">CSS3</text></g>
+      <g transform="translate(925 0)"><rect width="160" height="52" rx="14" fill="#111B2A" stroke="#303D53"/><circle cx="27" cy="26" r="11" fill="#A371F7"/><text x="27" y="31" text-anchor="middle" fill="white" font-size="9" font-weight="900">PWA</text><text x="50" y="31" fill="#E6EDF3" font-size="14" font-weight="700">PWA</text></g>
+    </g>
+    <g id="dataSet" class="ui">
+      <g transform="translate(0 0)"><rect width="175" height="52" rx="14" fill="#111B2A" stroke="#303D53"/><circle cx="27" cy="26" r="11" fill="#4479A1"/><text x="27" y="30" text-anchor="middle" fill="white" font-size="8" font-weight="900">DB</text><text x="50" y="31" fill="#E6EDF3" font-size="14" font-weight="700">MySQL</text></g>
+      <g transform="translate(191 0)"><rect width="185" height="52" rx="14" fill="#111B2A" stroke="#303D53"/><circle cx="27" cy="26" r="11" fill="#3ECF8E"/><path d="M23 16L17 28h10l-4 9 15-16H28l4-5z" fill="white"/><text x="50" y="31" fill="#E6EDF3" font-size="14" font-weight="700">Supabase</text></g>
+      <g transform="translate(392 0)"><rect width="175" height="52" rx="14" fill="#111B2A" stroke="#303D53"/><circle cx="27" cy="26" r="11" fill="#58A6FF"/><text x="27" y="30" text-anchor="middle" fill="white" font-size="8" font-weight="900">API</text><text x="50" y="31" fill="#E6EDF3" font-size="14" font-weight="700">REST APIs</text></g>
+      <g transform="translate(583 0)"><rect width="220" height="52" rx="14" fill="#111B2A" stroke="#303D53"/><circle cx="27" cy="26" r="11" fill="#D2A8FF"/><path d="M20 22h14M20 27h14M20 32h10" stroke="#111827" stroke-width="2"/><text x="50" y="31" fill="#E6EDF3" font-size="14" font-weight="700">Database Design</text></g>
+      <g transform="translate(819 0)"><rect width="160" height="52" rx="14" fill="#111B2A" stroke="#303D53"/><circle cx="27" cy="26" r="11" fill="#F0883E"/><path d="M22 25v-4a5 5 0 0110 0v4M20 25h14v10H20z" fill="none" stroke="white" stroke-width="1.7"/><text x="50" y="31" fill="#E6EDF3" font-size="14" font-weight="700">RBAC</text></g>
+      <g transform="translate(995 0)"><rect width="170" height="52" rx="14" fill="#111B2A" stroke="#303D53"/><circle cx="27" cy="26" r="11" fill="#3FB950"/><text x="27" y="30" text-anchor="middle" fill="white" font-size="8" font-weight="900">SQL</text><text x="50" y="31" fill="#E6EDF3" font-size="14" font-weight="700">Data Logic</text></g>
+    </g>
+    <g id="shipSet" class="ui">
+      <g transform="translate(0 0)"><rect width="145" height="52" rx="14" fill="#111B2A" stroke="#303D53"/><circle cx="27" cy="26" r="11" fill="#F05032"/><path d="M27 16l7 10-7 10-7-10z" fill="white"/><text x="50" y="31" fill="#E6EDF3" font-size="14" font-weight="700">Git</text></g>
+      <g transform="translate(161 0)"><rect width="165" height="52" rx="14" fill="#111B2A" stroke="#303D53"/><circle cx="27" cy="26" r="11" fill="#E6EDF3"/><circle cx="27" cy="25" r="6" fill="#111827"/><text x="50" y="31" fill="#E6EDF3" font-size="14" font-weight="700">GitHub</text></g>
+      <g transform="translate(342 0)"><rect width="165" height="52" rx="14" fill="#111B2A" stroke="#303D53"/><circle cx="27" cy="26" r="11" fill="#F4F7FB"/><path d="M27 18l8 15H19z" fill="#111827"/><text x="50" y="31" fill="#E6EDF3" font-size="14" font-weight="700">Vercel</text></g>
+      <g transform="translate(523 0)"><rect width="175" height="52" rx="14" fill="#111B2A" stroke="#303D53"/><circle cx="27" cy="26" r="11" fill="#58A6FF"/><text x="27" y="30" text-anchor="middle" fill="white" font-size="7" font-weight="900">CI</text><text x="50" y="31" fill="#E6EDF3" font-size="14" font-weight="700">CI / CD</text></g>
+      <g transform="translate(714 0)"><rect width="190" height="52" rx="14" fill="#111B2A" stroke="#303D53"/><circle cx="27" cy="26" r="11" fill="#3FB950"/><path d="M21 26l4 4 8-9" fill="none" stroke="white" stroke-width="2"/><text x="50" y="31" fill="#E6EDF3" font-size="14" font-weight="700">Verification</text></g>
+      <g transform="translate(920 0)"><rect width="195" height="52" rx="14" fill="#111B2A" stroke="#303D53"/><circle cx="27" cy="26" r="11" fill="#A371F7"/><path d="M20 29l7-12 7 12-7 6z" fill="white"/><text x="50" y="31" fill="#E6EDF3" font-size="14" font-weight="700">Deployments</text></g>
+    </g>
+  </defs>
+
+  <rect width="1200" height="370" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="370" rx="24" fill="url(#grid)"/>
+  <rect x="2" y="2" width="1196" height="366" rx="22" fill="none" stroke="#303A4D" stroke-width="2"/>
+  <rect class="border" x="7" y="7" width="1186" height="356" rx="19" fill="none" stroke="url(#accent)" opacity=".35"/>
+
+  <g class="ui">
+    <text x="52" y="58" fill="#F0F4FA" font-size="24" font-weight="800" letter-spacing="1.2">TECH ECOSYSTEM</text>
+    <text x="52" y="84" fill="#75859E" font-size="13">A practical stack selected around product needs—not trends.</text>
+    <g transform="translate(1065 48)" fill="#58A6FF" filter="url(#glow)">
+      <rect class="equalizer-a" x="0" y="0" width="5" height="22" rx="2"/>
+      <rect class="equalizer-b" x="12" y="0" width="5" height="22" rx="2"/>
+      <rect class="equalizer-c" x="24" y="0" width="5" height="22" rx="2"/>
+      <rect class="equalizer-a" x="36" y="0" width="5" height="22" rx="2" style="animation-delay:.35s"/>
+    </g>
+    <line x1="52" y1="104" x2="1148" y2="104" stroke="#263248"/>
+  </g>
+
+  <g class="ui" font-size="11" font-weight="800" letter-spacing="2">
+    <text x="52" y="155" fill="#58A6FF">BUILD</text><text x="52" y="177" fill="#61728C" font-size="10" letter-spacing="1">INTERFACES + LOGIC</text>
+    <text x="52" y="237" fill="#A371F7">DATA</text><text x="52" y="259" fill="#61728C" font-size="10" letter-spacing="1">MODELS + INTEGRITY</text>
+    <text x="52" y="319" fill="#3FB950">SHIP</text><text x="52" y="341" fill="#61728C" font-size="10" letter-spacing="1">VERSION + DELIVERY</text>
+  </g>
+
+  <g mask="url(#laneMask)">
+    <g transform="translate(190 125)">
+      <g><use href="#buildSet"/><use href="#buildSet" x="1110"/><animateTransform attributeName="transform" type="translate" from="0 0" to="-1110 0" dur="24s" repeatCount="indefinite"/></g>
+    </g>
+    <g transform="translate(190 207)">
+      <g transform="translate(-1165 0)"><use href="#dataSet"/><use href="#dataSet" x="1165"/><animateTransform attributeName="transform" type="translate" from="-1165 0" to="0 0" dur="27s" repeatCount="indefinite"/></g>
+    </g>
+    <g transform="translate(190 289)">
+      <g><use href="#shipSet"/><use href="#shipSet" x="1135"/><animateTransform attributeName="transform" type="translate" from="0 0" to="-1135 0" dur="25s" repeatCount="indefinite"/></g>
+    </g>
+  </g>
+</svg>

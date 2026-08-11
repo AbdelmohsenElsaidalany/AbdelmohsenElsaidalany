@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Animated selected product systems</title>
+  <desc id="desc">Four product cards for CMB POS and ERP, Hero Gym, Coach Flow, and EduCenter OS with a cycling highlight.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070B14"/><stop offset="1" stop-color="#0B1522"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#58A6FF"/><stop offset=".5" stop-color="#A371F7"/><stop offset="1" stop-color="#3FB950"/></linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="13" flood-color="#000" flood-opacity=".44"/></filter>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#6E7681" stroke-width=".6" opacity=".09"/></pattern>
+    <style>
+      .ui { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .card { fill:#0E1725; stroke:#2B3850; }
+      .active-1 { animation:focus 16s ease-in-out infinite 0s; }
+      .active-2 { animation:focus 16s ease-in-out infinite 4s; }
+      .active-3 { animation:focus 16s ease-in-out infinite 8s; }
+      .active-4 { animation:focus 16s ease-in-out infinite 12s; }
+      .pulse-1 { animation:pulse 16s ease-in-out infinite 0s; }
+      .pulse-2 { animation:pulse 16s ease-in-out infinite 4s; }
+      .pulse-3 { animation:pulse 16s ease-in-out infinite 8s; }
+      .pulse-4 { animation:pulse 16s ease-in-out infinite 12s; }
+      .border { stroke-dasharray:14 10; animation:border 9s linear infinite; }
+      @keyframes focus { 0%,4%{opacity:0} 8%,21%{opacity:1} 25%,100%{opacity:0} }
+      @keyframes pulse { 0%,4%{opacity:.25;transform:scale(.82)} 10%,20%{opacity:1;transform:scale(1.12)} 26%,100%{opacity:.25;transform:scale(.82)} }
+      @keyframes border { to{stroke-dashoffset:-240} }
+      @media (prefers-reduced-motion: reduce) { * { animation:none !important; } .active-1,.active-2,.active-3,.active-4{opacity:.45} }
+    </style>
+  </defs>
+
+  <rect width="1200" height="430" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="430" rx="24" fill="url(#grid)"/>
+  <rect x="2" y="2" width="1196" height="426" rx="22" fill="none" stroke="#303A4D" stroke-width="2"/>
+  <rect class="border" x="7" y="7" width="1186" height="416" rx="19" fill="none" stroke="url(#accent)" opacity=".35"/>
+
+  <g class="ui">
+    <text x="52" y="58" fill="#F0F4FA" font-size="24" font-weight="800" letter-spacing="1.2">SELECTED PRODUCT SYSTEMS</text>
+    <text x="52" y="84" fill="#75859E" font-size="13">Commercial and private products designed around real operational workflows.</text>
+    <circle cx="1128" cy="57" r="6" fill="#3FB950" filter="url(#glow)"><animate attributeName="opacity" values=".35;1;.35" dur="2.2s" repeatCount="indefinite"/></circle>
+    <text x="1090" y="83" fill="#6E7E97" font-size="10" letter-spacing="1.5">LIVE</text>
+  </g>
+
+  <g class="ui" filter="url(#shadow)">
+    <g transform="translate(52 116)">
+      <rect class="card" width="258" height="246" rx="18"/>
+      <rect class="active-1" x="-1" y="-1" width="260" height="248" rx="19" fill="none" stroke="#58A6FF" stroke-width="2.5" opacity="0" filter="url(#glow)"/>
+      <rect x="18" y="20" width="48" height="48" rx="13" fill="#58A6FF" opacity=".12" stroke="#58A6FF" stroke-opacity=".48"/>
+      <g transform="translate(29 31)" fill="none" stroke="#58A6FF" stroke-width="2"><path d="M2 4h24v20H2z"/><path d="M6 0v8M22 0v8M7 13h14M7 18h9"/></g>
+      <circle class="pulse-1" cx="235" cy="28" r="4" fill="#58A6FF"/>
+      <text x="18" y="98" fill="#F0F4FA" font-size="19" font-weight="800">CMB POS &amp; ERP</text>
+      <text x="18" y="127" fill="#7E8DA6" font-size="12">Sales • Purchasing • Inventory</text>
+      <text x="18" y="151" fill="#7E8DA6" font-size="12">Costing • Returns • Finance</text>
+      <line x1="18" y1="177" x2="240" y2="177" stroke="#28364C"/>
+      <text x="18" y="205" fill="#58A6FF" font-size="10" font-weight="800" letter-spacing="1.5">BUSINESS OPERATIONS</text>
+      <text x="18" y="226" fill="#61728C" font-size="10">Arabic-first • Permission-aware</text>
+    </g>
+
+    <g transform="translate(330 116)">
+      <rect class="card" width="258" height="246" rx="18"/>
+      <rect class="active-2" x="-1" y="-1" width="260" height="248" rx="19" fill="none" stroke="#3FB950" stroke-width="2.5" opacity="0" filter="url(#glow)"/>
+      <rect x="18" y="20" width="48" height="48" rx="13" fill="#3FB950" opacity=".12" stroke="#3FB950" stroke-opacity=".48"/>
+      <g transform="translate(29 31)" fill="none" stroke="#3FB950" stroke-width="2"><path d="M0 8h6v8H0zM20 8h6v8h-6zM6 10h14v4H6z"/><path d="M3 5v14M23 5v14"/></g>
+      <circle class="pulse-2" cx="235" cy="28" r="4" fill="#3FB950"/>
+      <text x="18" y="98" fill="#F0F4FA" font-size="19" font-weight="800">HERO GYM</text>
+      <text x="18" y="127" fill="#7E8DA6" font-size="12">Memberships • Subscriptions</text>
+      <text x="18" y="151" fill="#7E8DA6" font-size="12">QR Attendance • Payments</text>
+      <line x1="18" y1="177" x2="240" y2="177" stroke="#28364C"/>
+      <text x="18" y="205" fill="#3FB950" font-size="10" font-weight="800" letter-spacing="1.5">GYM OPERATIONS</text>
+      <text x="18" y="226" fill="#61728C" font-size="10">Fast check-in • Clear control</text>
+    </g>
+
+    <g transform="translate(608 116)">
+      <rect class="card" width="258" height="246" rx="18"/>
+      <rect class="active-3" x="-1" y="-1" width="260" height="248" rx="19" fill="none" stroke="#A371F7" stroke-width="2.5" opacity="0" filter="url(#glow)"/>
+      <rect x="18" y="20" width="48" height="48" rx="13" fill="#A371F7" opacity=".12" stroke="#A371F7" stroke-opacity=".48"/>
+      <g transform="translate(29 31)" fill="none" stroke="#A371F7" stroke-width="2"><circle cx="13" cy="8" r="5"/><path d="M4 25c1-7 5-10 9-10s8 3 9 10"/><path d="M21 4h6M24 1v6"/></g>
+      <circle class="pulse-3" cx="235" cy="28" r="4" fill="#A371F7"/>
+      <text x="18" y="98" fill="#F0F4FA" font-size="19" font-weight="800">COACH FLOW</text>
+      <text x="18" y="127" fill="#7E8DA6" font-size="12">Clients • Training • Nutrition</text>
+      <text x="18" y="151" fill="#7E8DA6" font-size="12">Progress • History • Chat</text>
+      <line x1="18" y1="177" x2="240" y2="177" stroke="#28364C"/>
+      <text x="18" y="205" fill="#A371F7" font-size="10" font-weight="800" letter-spacing="1.5">COACHING SAAS</text>
+      <text x="18" y="226" fill="#61728C" font-size="10">One workspace • Better follow-up</text>
+    </g>
+
+    <g transform="translate(886 116)">
+      <rect class="card" width="258" height="246" rx="18"/>
+      <rect class="active-4" x="-1" y="-1" width="260" height="248" rx="19" fill="none" stroke="#F0883E" stroke-width="2.5" opacity="0" filter="url(#glow)"/>
+      <rect x="18" y="20" width="48" height="48" rx="13" fill="#F0883E" opacity=".12" stroke="#F0883E" stroke-opacity=".48"/>
+      <g transform="translate(28 31)" fill="none" stroke="#F0883E" stroke-width="2"><path d="M2 3h10c4 0 6 2 6 6v16H8c-4 0-6-2-6-6z"/><path d="M18 9c0-4 2-6 6-6h4v16c0 4-2 6-6 6h-4z"/></g>
+      <circle class="pulse-4" cx="235" cy="28" r="4" fill="#F0883E"/>
+      <text x="18" y="98" fill="#F0F4FA" font-size="19" font-weight="800">EDUCENTER OS</text>
+      <text x="18" y="127" fill="#7E8DA6" font-size="12">Students • Groups • Attendance</text>
+      <text x="18" y="151" fill="#7E8DA6" font-size="12">Subscriptions • Payments</text>
+      <line x1="18" y1="177" x2="240" y2="177" stroke="#28364C"/>
+      <text x="18" y="205" fill="#F0883E" font-size="10" font-weight="800" letter-spacing="1.5">EDUCATION PLATFORM</text>
+      <text x="18" y="226" fill="#61728C" font-size="10">Organized data • Clear follow-up</text>
+    </g>
+  </g>
+
+  <g transform="translate(68 395)">
+    <line x1="0" y1="0" x2="1064" y2="0" stroke="#263248" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="1064" y2="0" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-dasharray="88 976"><animate attributeName="stroke-dashoffset" values="0;-1064" dur="16s" repeatCount="indefinite"/></line>
+    <circle r="6" fill="#58A6FF" filter="url(#glow)"><animateMotion path="M0 0H1064" dur="16s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>

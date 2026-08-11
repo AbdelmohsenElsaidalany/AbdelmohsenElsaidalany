@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Animated product engineering workflow</title>
+  <desc id="desc">A moving signal travels through Discover, Model, Build, Verify, and Ship.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070B14"/><stop offset="1" stop-color="#0B1522"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#58A6FF"/><stop offset=".5" stop-color="#A371F7"/><stop offset="1" stop-color="#3FB950"/></linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#6E7681" stroke-width=".6" opacity=".09"/></pattern>
+    <style>
+      .ui { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .node { animation:nodePulse 10s ease-in-out infinite; transform-box:fill-box; transform-origin:center; }
+      .n2{animation-delay:2s}.n3{animation-delay:4s}.n4{animation-delay:6s}.n5{animation-delay:8s}
+      .border { stroke-dasharray:14 10; animation:border 9s linear infinite; }
+      @keyframes nodePulse { 0%,8%{opacity:.45;transform:scale(.88)} 13%,22%{opacity:1;transform:scale(1.12)} 28%,100%{opacity:.45;transform:scale(.88)} }
+      @keyframes border { to{stroke-dashoffset:-240} }
+      @media (prefers-reduced-motion: reduce) { * { animation:none !important; } }
+    </style>
+  </defs>
+  <rect width="1200" height="280" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="280" rx="24" fill="url(#grid)"/>
+  <rect x="2" y="2" width="1196" height="276" rx="22" fill="none" stroke="#303A4D" stroke-width="2"/>
+  <rect class="border" x="7" y="7" width="1186" height="266" rx="19" fill="none" stroke="url(#accent)" opacity=".35"/>
+
+  <g class="ui">
+    <text x="52" y="53" fill="#F0F4FA" font-size="22" font-weight="800" letter-spacing="1.2">FROM WORKFLOW TO WORKING PRODUCT</text>
+    <text x="52" y="78" fill="#75859E" font-size="13">A repeatable engineering loop that keeps business logic, interfaces, and data aligned.</text>
+  </g>
+
+  <path d="M132 151H1068" fill="none" stroke="#263248" stroke-width="5" stroke-linecap="round"/>
+  <path d="M132 151H1068" fill="none" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" stroke-dasharray="10 12"><animate attributeName="stroke-dashoffset" from="0" to="-220" dur="6s" repeatCount="indefinite"/></path>
+  <circle r="8" fill="#F4F7FB" stroke="#58A6FF" stroke-width="3" filter="url(#glow)"><animateMotion path="M132 151H1068" dur="10s" repeatCount="indefinite"/></circle>
+
+  <g class="ui" text-anchor="middle">
+    <g transform="translate(132 151)"><circle class="node" r="22" fill="#0E1725" stroke="#58A6FF" stroke-width="2"/><text y="5" fill="#58A6FF" font-size="12" font-weight="900">01</text><text y="57" fill="#E6EDF3" font-size="14" font-weight="800">DISCOVER</text><text y="78" fill="#687A95" font-size="11">Observe workflow</text></g>
+    <g transform="translate(366 151)"><circle class="node n2" r="22" fill="#0E1725" stroke="#7D8FFF" stroke-width="2"/><text y="5" fill="#7D8FFF" font-size="12" font-weight="900">02</text><text y="57" fill="#E6EDF3" font-size="14" font-weight="800">MODEL</text><text y="78" fill="#687A95" font-size="11">Define rules</text></g>
+    <g transform="translate(600 151)"><circle class="node n3" r="22" fill="#0E1725" stroke="#A371F7" stroke-width="2"/><text y="5" fill="#A371F7" font-size="12" font-weight="900">03</text><text y="57" fill="#E6EDF3" font-size="14" font-weight="800">BUILD</text><text y="78" fill="#687A95" font-size="11">Connect layers</text></g>
+    <g transform="translate(834 151)"><circle class="node n4" r="22" fill="#0E1725" stroke="#59C98A" stroke-width="2"/><text y="5" fill="#59C98A" font-size="12" font-weight="900">04</text><text y="57" fill="#E6EDF3" font-size="14" font-weight="800">VERIFY</text><text y="78" fill="#687A95" font-size="11">Test real paths</text></g>
+    <g transform="translate(1068 151)"><circle class="node n5" r="22" fill="#0E1725" stroke="#3FB950" stroke-width="2"/><text y="5" fill="#3FB950" font-size="12" font-weight="900">05</text><text y="57" fill="#E6EDF3" font-size="14" font-weight="800">SHIP</text><text y="78" fill="#687A95" font-size="11">Deploy clearly</text></g>
+  </g>
+</svg>
