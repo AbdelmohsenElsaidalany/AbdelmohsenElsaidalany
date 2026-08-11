@@ -105,10 +105,6 @@ I’m Abdelmohsen, a software engineer focused on turning real business workflow
 ## GitHub activity
 
 <p align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=AbdelmohsenElsaidalany&amp;show_icons=true&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=58A6FF&amp;text_color=C9D1D9&amp;icon_color=3FB950&amp;include_all_commits=true" alt="Abdelmohsen's GitHub statistics" />
-</p>
-
-<p align="center">
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=AbdelmohsenElsaidalany&amp;bg_color=0D1117&amp;color=58A6FF&amp;line=3FB950&amp;point=FFFFFF&amp;area=true&amp;hide_border=true" alt="Abdelmohsen's contribution activity graph" />
 </p>
 
