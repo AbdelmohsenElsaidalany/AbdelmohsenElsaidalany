@@ -1,77 +1,59 @@
-<p align="center">
-  <img src="./assets/profile-header.svg" alt="Abdelmohsen Elsaidalany — animated software engineer profile" width="100%" />
-</p>
+# Abdelmohsen Elsaidalany
 
-<p align="center">
-  <strong>Software Engineer building SaaS products and operational business systems.</strong><br />
-  <sub>Product logic • Data integrity • Arabic-first UX • Reliable delivery</sub>
-</p>
+**Software Engineer | Business Applications & Operational Systems**
 
-## Engineering profile
+I build web applications that turn complex business workflows into clear, usable software. Through **Eyan Business Solutions**, I connect product requirements, database design, backend logic, and responsive interfaces.
 
-I’m Abdelmohsen, a software engineer focused on turning complex, real-world operations into clear and dependable software. I work across product discovery, business-rule design, databases, frontend experience, backend behavior, and deployment through **Eyan Business Solutions**.
+My focus is practical: accurate inventory, consistent financial records, clear permissions, and efficient daily workflows.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>What I build</h3>
-      <p>SaaS platforms, POS/ERP systems, membership products, education platforms, automation tools, and data-driven operational software.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>What I optimize</h3>
-      <p>Clear business rules, trustworthy data, fast daily workflows, role-aware access, mobile-first layouts, and complete Arabic RTL experiences.</p>
-    </td>
-  </tr>
-</table>
+[Explore my featured project](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management) · [Engineering documentation](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management#quality-and-integrity)
 
-> أحوّل إجراءات العمل المعقدة إلى منتجات ويب عملية، واضحة، ويمكن الاعتماد عليها يوميًا.
+## Featured project — CMB POS & Business Management
 
-## Selected product systems
+An Arabic-first retail management application covering sales, purchasing, inventory, customer and supplier accounts, returns, and reporting.
 
-<p align="center">
-  <img src="./assets/product-showcase.svg" alt="Animated showcase of CMB, Hero Gym, Coach Flow, and EduCenter OS" width="100%" />
-</p>
+**Stack:** PHP · MySQL / MariaDB · JavaScript · HTML · CSS · PWA
 
-<details>
-  <summary><strong>Product scope</strong></summary>
-  <br />
-  <ul>
-    <li><strong>CMB POS &amp; ERP:</strong> sales, purchasing, inventory, costing, returns, permissions, and financial operations.</li>
-    <li><strong>Hero Gym:</strong> memberships, subscriptions, QR attendance, payments, and member operations.</li>
-    <li><strong>Coach Flow:</strong> client management, training, nutrition, progress, history, and coach-client communication.</li>
-    <li><strong>EduCenter OS:</strong> students, groups, subscriptions, attendance, payments, and education-center workflows.</li>
-  </ul>
-</details>
+| Engineering area | Implementation in CMB |
+| --- | --- |
+| Business workflows | Connected sales, purchasing, returns, and settlement flows |
+| Data integrity | Weighted-average costing, inventory movements, and financial posting |
+| Access control | Role-based permissions and restricted cost and financial visibility |
+| User experience | Responsive Arabic RTL layouts for desktop and mobile |
+| Maintainability | Domain services, shared views, migration tools, and regression scripts |
 
-## Tech ecosystem
+[**View repository →**](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management) · [Setup guide](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management#local-setup) · [Validation tools](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management/tree/main/tools)
 
-<p align="center">
-  <img src="./assets/tech-ecosystem.svg" alt="Animated technology ecosystem" width="100%" />
-</p>
+[![CMB point-of-sale interface](https://raw.githubusercontent.com/AbdelmohsenElsaidalany/cmb-pos-business-management/main/docs/ui-ux/stage-03/pos_1440x900.png)](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management)
 
-## Product engineering workflow
+## Technical focus
 
-<p align="center">
-  <img src="./assets/workflow.svg" alt="Animated product engineering workflow" width="100%" />
-</p>
+- **Backend:** PHP, PDO, business rules, session-based authentication, and access control.
+- **Data:** MySQL / MariaDB, relational modelling, transactions, and operational reporting.
+- **Frontend:** JavaScript, HTML, CSS, responsive layouts, Arabic RTL, and progressive web apps.
+- **Delivery:** GitHub, deployment documentation, database migrations, and workflow regression checks.
 
-### Engineering principles
+## Other product work
 
-- Understand the real workflow before designing the screen.
-- Define the source of truth for every business value.
-- Keep frontend behavior, backend logic, and database state aligned.
-- Test complete user paths—not isolated screens.
-- Prefer useful simplicity over operational noise.
+| Product | Focus |
+| --- | --- |
+| Hero Gym | Memberships, subscriptions, QR attendance, payments, and member operations |
+| Coach Flow | Client management, training, nutrition, and progress tracking |
+| EduCenter OS | Students, groups, attendance, subscriptions, and payments |
 
-## Live contribution activity
+These product summaries describe my broader work. CMB is the public code sample linked above.
 
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=AbdelmohsenElsaidalany&amp;bg_color=070B14&amp;color=58A6FF&amp;line=3FB950&amp;point=FFFFFF&amp;area=true&amp;hide_border=true" alt="Abdelmohsen's contribution activity graph" />
-</p>
+## How I approach engineering
+
+1. Understand the people, constraints, and real workflow.
+2. Define business rules and the source of truth for each value.
+3. Keep interface behaviour, backend logic, and database state consistent.
+4. Validate complete workflows, including errors, corrections, and permissions.
+5. Document setup and technical decisions so the system is easier to maintain.
 
 ---
 
-<p align="center">
-  <strong>Build for people. Design for operations. Ship with clarity.</strong><br />
-  <sub>Egypt • Eyan Business Solutions</sub>
-</p>
+**Eyan Business Solutions** — Business applications, workflow automation, and operational reporting.
+
+أطوّر تطبيقات ويب تربط احتياجات العمل بتجربة استخدام واضحة وبيانات يمكن الاعتماد عليها.
+
