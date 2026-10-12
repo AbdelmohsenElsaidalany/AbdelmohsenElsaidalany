@@ -1,69 +1,85 @@
 <h1 align="center">Abdelmohsen Elsaidalany</h1>
-<p align="center"><strong>Software Engineer · Business Applications & Operational Systems</strong></p>
-<p align="center">Turning real business workflows into practical web applications.</p>
+<p align="center"><strong>Software Engineer · Business Systems · Workflow Automation</strong></p>
+<p align="center">I turn real operational workflows into practical, maintainable web applications.</p>
+
 <p align="center">
-  <a href="https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management">Featured project</a> ·
-  <a href="https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management#screenshots">Interface gallery</a> ·
-  <a href="https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management#local-setup">Setup & documentation</a>
+  <a href="https://eyanbusinesssolutions.pages.dev/">Eyan Business Solutions</a> ·
+  <a href="https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management">Featured Project</a> ·
+  <a href="mailto:abdelmohsenelsaidalany@gmail.com">Email</a>
+</p>
+
+<p align="center">
+  <img alt="PHP" src="https://img.shields.io/badge/PHP-8.1%2B-777BB4?logo=php&logoColor=white">
+  <img alt="MySQL" src="https://img.shields.io/badge/MySQL%20%2F%20MariaDB-4479A1?logo=mysql&logoColor=white">
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?logo=javascript&logoColor=111111">
+  <img alt="Business Applications" src="https://img.shields.io/badge/Focus-Business%20Applications-111111">
 </p>
 
 ---
 
-## About me
+## What I build
 
-I build business applications with a focus on **inventory, financial workflows, permissions, and daily operations**. Through **Eyan Business Solutions**, I connect product requirements with database design, backend rules, and responsive interfaces.
+I design and develop business applications around the workflows companies actually use: **sales, purchasing, inventory, financial records, permissions, reporting, subscriptions, attendance, and day-to-day operations**.
 
-My approach starts with the workflow: what users need to do, how records change, and how corrections should affect stock and accounts. I value clear interfaces, traceable data, and software that is practical to deploy and maintain.
+My work usually spans the full product path:
 
-## Featured work — CMB POS & Business Management
+- translating operational requirements into clear system workflows;
+- designing relational data models and business rules;
+- building backend logic and responsive user interfaces;
+- protecting sensitive actions with role-based access and validation;
+- handling corrections, reversals, migrations, and deployment realities;
+- documenting systems so they remain maintainable after delivery.
 
-**An Arabic-first retail application connecting the point of sale with purchasing, inventory, customer and supplier accounts, returns, and reporting.**
+Through **Eyan Business Solutions**, I focus on software that is useful in production, not only technically complete.
+
+## Featured project
+
+### CMB POS & Business Management
+
+**Arabic-first retail operations platform combining point of sale, purchasing, inventory, customer and supplier accounts, financial controls, returns, reporting, permissions, and PWA delivery.**
 
 **PHP 8.1+ · MySQL / MariaDB · JavaScript · HTML · CSS · PWA**
 
-[![CMB point-of-sale interface](https://raw.githubusercontent.com/AbdelmohsenElsaidalany/cmb-pos-business-management/main/docs/ui-ux/stage-03/pos_1440x900.png)](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management#screenshots)
+[![CMB point-of-sale interface](https://raw.githubusercontent.com/AbdelmohsenElsaidalany/cmb-pos-business-management/main/docs/ui-ux/stage-03/pos_1440x900.png)](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management)
 
-### Explore the implementation
+| Engineering area | Examples in the project |
+| --- | --- |
+| Sales & purchasing | Invoice workflows, discounts, pricing, purchasing rules |
+| Inventory | Stock movement, transfers, returns, costing, warehouse workflows |
+| Finance | Customer debt, supplier settlements, journals, cash and reporting |
+| Access control | Role-based permissions and restricted financial visibility |
+| Reliability | Regression checks, reversal flows, migrations and recovery tooling |
+| UX | Responsive Arabic RTL interface for desktop and mobile |
 
-| Focus | What the project covers | Code & evidence |
-| --- | --- | --- |
-| Sales & purchasing | Invoice workflows, discounts, and connected business rules | [Sales](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management/blob/main/app/sales.php) · [Purchasing](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management/blob/main/app/procurement.php) |
-| Inventory | Stock movements, returns, and costing workflows | [Inventory](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management/blob/main/app/inventory.php) · [Returns checks](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management/blob/main/tools/returns-inventory-regression.php) |
-| Financial records | Posting, customer debt, and account workflows | [Accounting](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management/blob/main/app/accounting.php) · [Financial checks](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management/blob/main/tools/financial-regression.php) |
-| Permissions | Role-based access and restricted financial visibility | [Access-control checks](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management/blob/main/tools/access-control-regression.php) |
-| Responsive UI | Arabic RTL layouts across desktop and mobile | [Screenshots](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management#screenshots) · [Layout checks](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management/blob/main/tools/ui-layout-audit.php) |
-| Delivery & maintenance | Database migrations, deployment guidance, and syntax checks | [Migrations](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management/tree/main/database/migrations) · [GitHub Actions](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management/blob/main/.github/workflows/php-syntax.yml) |
-
-[**Explore CMB →**](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management) · [Installation guide in Arabic](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management/blob/main/FRESH_INSTALL_AR.md) · [Release history](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management/blob/main/CHANGELOG.md)
-
-The linked regression scripts show the validation tooling included in the repository; their presence alone does not indicate that every check currently passes.
+[**Explore CMB repository →**](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management) · [Screenshots](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management#screenshots) · [Arabic installation guide](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management/blob/main/FRESH_INSTALL_AR.md)
 
 ## Technical focus
 
 | Area | Technologies & practices |
 | --- | --- |
-| Backend | PHP, PDO, business rules, session-based authentication, access control |
-| Data | MySQL / MariaDB, relational modelling, transactions, operational reporting |
-| Frontend | JavaScript, HTML, CSS, responsive interfaces, Arabic RTL, progressive web apps |
-| Delivery | GitHub, database migrations, deployment documentation, workflow regression checks |
+| Backend | PHP, PDO, server-side business rules, authentication, RBAC |
+| Data | MySQL / MariaDB, relational modelling, transactions, migrations |
+| Frontend | JavaScript, HTML, CSS, responsive UI, Arabic RTL, PWA |
+| Product engineering | Workflow analysis, operational rules, auditability, error recovery |
+| Delivery | GitHub, shared-hosting deployment, documentation, regression tooling |
 
-## Broader product work
+## Selected product work
 
-Alongside the public CMB code sample, my product work includes:
+Beyond the public CMB repository, my product work includes business systems such as:
 
-- **Hero Gym:** memberships, subscriptions, QR attendance, payments, and member operations.
-- **Coach Flow:** client management, training, nutrition, and progress tracking.
-- **EduCenter OS:** students, groups, attendance, subscriptions, and payments.
+- **Hero Gym** — memberships, subscriptions, QR attendance, payments, and member operations.
+- **Coach Flow** — client management, training, nutrition, and progress tracking.
+- **EduCenter OS** — students, groups, attendance, subscriptions, and payments.
 
-## How I work
+## Engineering principles
 
-1. Map the real workflow and the constraints of the people using the system.
-2. Define business rules and the source of truth for each record.
-3. Keep the interface, backend logic, and database state consistent.
-4. Check complete workflows, including corrections, errors, and permissions.
-5. Document installation and technical decisions for future maintenance.
+1. **Start from the workflow.** Understand what users do before choosing the implementation.
+2. **Define the source of truth.** Every stock, balance, status, and financial record needs clear ownership.
+3. **Design for corrections.** Real systems need reversals, edits, recovery, and traceability.
+4. **Keep permissions explicit.** Sensitive business and financial data should only be visible where required.
+5. **Optimize for maintainability.** Deployment, migration, documentation, and future changes are part of the product.
 
 ---
 
-<p align="center"><strong>Eyan Business Solutions</strong><br>Business applications · Workflow automation · Operational reporting</p>
-<p align="center" dir="rtl">أطوّر تطبيقات ويب لإدارة الأعمال، تربط المبيعات والمخزون والحسابات بتجربة استخدام واضحة وقواعد عمل دقيقة.</p>
+<p align="center"><strong>Eyan Business Solutions</strong><br>Business applications · Workflow automation · Operational systems</p>
+<p align="center" dir="rtl">أطوّر أنظمة ويب عملية لإدارة الأعمال، تربط التشغيل والمبيعات والمخزون والحسابات في تجربة واضحة وقابلة للتوسع والصيانة.</p>
