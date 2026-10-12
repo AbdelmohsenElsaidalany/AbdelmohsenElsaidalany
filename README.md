@@ -1,85 +1,95 @@
 <h1 align="center">Abdelmohsen Elsaidalany</h1>
-<p align="center"><strong>Software Engineer · Business Systems · Workflow Automation</strong></p>
-<p align="center">I turn real operational workflows into practical, maintainable web applications.</p>
+<p align="center"><strong>Founder & Business Systems Lead — Eyan Business Solutions</strong></p>
+<p align="center">Software Engineer · Business Analyst · Project Management · Digital Operations</p>
+<p align="center"><em>Digital presence and systems built around real business workflows.</em></p>
 
 <p align="center">
   <a href="https://eyanbusinesssolutions.pages.dev/">Eyan Business Solutions</a> ·
-  <a href="https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management">Featured Project</a> ·
-  <a href="mailto:abdelmohsenelsaidalany@gmail.com">Email</a>
+  <a href="https://wa.me/201068000309">WhatsApp</a> ·
+  <a href="https://instagram.com/eyan_business_solutions">Instagram</a> ·
+  <a href="mailto:aelsaidalany@gmail.com">Email</a>
 </p>
 
 <p align="center">
-  <img alt="PHP" src="https://img.shields.io/badge/PHP-8.1%2B-777BB4?logo=php&logoColor=white">
-  <img alt="MySQL" src="https://img.shields.io/badge/MySQL%20%2F%20MariaDB-4479A1?logo=mysql&logoColor=white">
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?logo=javascript&logoColor=111111">
-  <img alt="Business Applications" src="https://img.shields.io/badge/Focus-Business%20Applications-111111">
+  <img alt="Websites" src="https://img.shields.io/badge/Websites-Digital%20Presence-111111">
+  <img alt="E-commerce" src="https://img.shields.io/badge/E--commerce-Stores-111111">
+  <img alt="Business Systems" src="https://img.shields.io/badge/Business%20Systems-POS%20%7C%20ERP%20%7C%20CRM-111111">
+  <img alt="Automation" src="https://img.shields.io/badge/Automation-Internal%20Tools-111111">
+  <img alt="Dashboards" src="https://img.shields.io/badge/Dashboards-Reports%20%26%20KPIs-111111">
 </p>
 
 ---
 
-## What I build
+## About
 
-I design and develop business applications around the workflows companies actually use: **sales, purchasing, inventory, financial records, permissions, reporting, subscriptions, attendance, and day-to-day operations**.
+I lead **Eyan Business Solutions**, a remote digital business solutions practice focused on turning real workflows into practical digital products and operating systems.
 
-My work usually spans the full product path:
+My work combines **technical execution, business analysis, project discipline, and digital operations**. The objective is not simply to build polished interfaces; it is to understand how a business works, define the right solution, and deliver websites, systems, dashboards, automation, identity, and launch assets around that reality.
 
-- translating operational requirements into clear system workflows;
-- designing relational data models and business rules;
-- building backend logic and responsive user interfaces;
-- protecting sensitive actions with role-based access and validation;
-- handling corrections, reversals, migrations, and deployment realities;
-- documenting systems so they remain maintainable after delivery.
+> **Workflow before code.** We understand the business model, users, data, operating environment, constraints, and desired outcome before defining the technology or design.
 
-Through **Eyan Business Solutions**, I focus on software that is useful in production, not only technically complete.
+## What EYAN builds
 
-## Featured project
-
-### CMB POS & Business Management
-
-**Arabic-first retail operations platform combining point of sale, purchasing, inventory, customer and supplier accounts, financial controls, returns, reporting, permissions, and PWA delivery.**
-
-**PHP 8.1+ · MySQL / MariaDB · JavaScript · HTML · CSS · PWA**
-
-[![CMB point-of-sale interface](https://raw.githubusercontent.com/AbdelmohsenElsaidalany/cmb-pos-business-management/main/docs/ui-ux/stage-03/pos_1440x900.png)](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management)
-
-| Engineering area | Examples in the project |
+| Area | Scope |
 | --- | --- |
-| Sales & purchasing | Invoice workflows, discounts, pricing, purchasing rules |
-| Inventory | Stock movement, transfers, returns, costing, warehouse workflows |
-| Finance | Customer debt, supplier settlements, journals, cash and reporting |
-| Access control | Role-based permissions and restricted financial visibility |
-| Reliability | Regression checks, reversal flows, migrations and recovery tooling |
-| UX | Responsive Arabic RTL interface for desktop and mobile |
+| **Web & Landing Pages** | Company websites and focused landing pages designed to explain services, build trust, and drive contact |
+| **E-commerce Stores** | Product catalogs, order flows, offers, checkout direction, admin control, and future integration readiness |
+| **POS Systems** | Sales, invoices, stock movement, returns, users, and daily closing |
+| **ERP Systems** | Inventory, purchasing, expenses, departments, approvals, and reporting |
+| **CRM Systems** | Customers, leads, follow-ups, requests, and service opportunities |
+| **Internal Tools & Automation** | Admin panels, forms, approvals, validation rules, workflow tools, and integrations |
+| **Dashboards & Reports** | Operational data transformed into indicators owners can monitor |
+| **Brand Identity Systems** | Logo systems, visual identity, guidelines, and business applications |
+| **Launch Systems** | Social launch assets, profile setup, captions, campaign materials, and launch support |
 
-[**Explore CMB repository →**](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management) · [Screenshots](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management#screenshots) · [Arabic installation guide](https://github.com/AbdelmohsenElsaidalany/cmb-pos-business-management/blob/main/FRESH_INSTALL_AR.md)
+## How I approach delivery
 
-## Technical focus
+EYAN uses a structured software and business-solution lifecycle. The depth changes with project scope and risk, while maintaining traceability from the business need through delivery and ongoing operation.
 
-| Area | Technologies & practices |
-| --- | --- |
-| Backend | PHP, PDO, server-side business rules, authentication, RBAC |
-| Data | MySQL / MariaDB, relational modelling, transactions, migrations |
-| Frontend | JavaScript, HTML, CSS, responsive UI, Arabic RTL, PWA |
-| Product engineering | Workflow analysis, operational rules, auditability, error recovery |
-| Delivery | GitHub, shared-hosting deployment, documentation, regression tooling |
+1. **Qualification, governance & business case** — validate the problem, value, feasibility, ownership, scope boundaries, and decision rights.
+2. **Discovery, requirements & domain analysis** — define workflows, users, rules, data, permissions, exceptions, reports, and acceptance criteria.
+3. **UX, UI & solution design** — design task flows, information architecture, interfaces, solution architecture, and delivery direction around real usage.
+4. **Data, backend & frontend engineering** — build governed data models, business rules, interfaces, validation, and maintainable implementation.
+5. **Integration, DevOps, verification & security** — prepare environments, integrations, quality checks, performance, recovery, security, and release readiness.
+6. **Migration, training, deployment & hypercare** — prepare data and users, deploy with controlled cutover, validate production, and stabilize operations.
+7. **Operations, improvement & lifecycle management** — support users, monitor outcomes, maintain reliability, improve from evidence, and evolve responsibly.
 
-## Selected product work
+The wider EYAN framework covers **17 lifecycle phases**, from pre-initiation through operations, improvement, scale, replacement, or controlled retirement.
 
-Beyond the public CMB repository, my product work includes business systems such as:
+## Business environments
 
-- **Hero Gym** — memberships, subscriptions, QR attendance, payments, and member operations.
-- **Coach Flow** — client management, training, nutrition, and progress tracking.
-- **EduCenter OS** — students, groups, attendance, subscriptions, and payments.
+EYAN solutions are shaped around the operating model rather than a fixed technology package.
 
-## Engineering principles
+- **Retail & stores** — POS, inventory, branches, reporting, and e-commerce readiness.
+- **Service businesses** — websites, requests, CRM, customer follow-up, and dashboards.
+- **Tourism & travel** — identity, package presentation, booking flow, and launch assets.
+- **E-commerce brands** — stores, product management, orders, campaigns, and integrations.
+- **Startups & new brands** — identity, landing pages, launch systems, and scalable foundations.
+- **Growing operations** — ERP modules, approvals, branches, users, reporting, and automation.
 
-1. **Start from the workflow.** Understand what users do before choosing the implementation.
-2. **Define the source of truth.** Every stock, balance, status, and financial record needs clear ownership.
-3. **Design for corrections.** Real systems need reversals, edits, recovery, and traceability.
-4. **Keep permissions explicit.** Sensitive business and financial data should only be visible where required.
-5. **Optimize for maintainability.** Deployment, migration, documentation, and future changes are part of the product.
+## Working principles
+
+- **Start from the business need, not the technology name.**
+- **Understand the workflow before designing the system.**
+- **Translate requirements into clear modules, rules, and user flows.**
+- **Treat websites, systems, data, identity, and launch assets as connected parts of the business.**
+- **Use milestones, reviews, acceptance criteria, and practical handover.**
+- **Build foundations that can grow into additional modules, dashboards, integrations, e-commerce, or automation.**
+
+## Collaboration
+
+Project scope and pricing are defined after understanding the business type, users, branches, required modules, design needs, integrations, support expectations, and operational risk.
+
+**Scope before cost · Milestones and acceptance criteria · Support and maintenance by agreement**
 
 ---
 
-<p align="center"><strong>Eyan Business Solutions</strong><br>Business applications · Workflow automation · Operational systems</p>
-<p align="center" dir="rtl">أطوّر أنظمة ويب عملية لإدارة الأعمال، تربط التشغيل والمبيعات والمخزون والحسابات في تجربة واضحة وقابلة للتوسع والصيانة.</p>
+<p align="center"><strong>Eyan Business Solutions</strong></p>
+<p align="center">Websites · E-commerce · POS · ERP · CRM · Dashboards · Automation · Brand Identity · Launch Systems</p>
+<p align="center">
+  <a href="https://eyanbusinesssolutions.pages.dev/">Website</a> ·
+  <a href="https://wa.me/201068000309">Start a consultation</a> ·
+  <a href="mailto:aelsaidalany@gmail.com">aelsaidalany@gmail.com</a>
+</p>
+
+<p align="center" dir="rtl">نبدأ من طريقة عمل البزنس واحتياجاته الفعلية، ثم نبني الحضور الرقمي أو النظام المناسب حول الـ workflow الحقيقي.</p>
