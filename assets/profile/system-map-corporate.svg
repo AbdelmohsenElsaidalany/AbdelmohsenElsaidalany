@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">EYAN business systems operating map</title>
+  <desc id="desc">A calm animated flow from business needs through processes, data, systems, automation, insights and growth.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#0a1728"/>
+      <stop offset="1" stop-color="#0d2238"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#5f84a8"/>
+      <stop offset="0.55" stop-color="#90aeca"/>
+      <stop offset="1" stop-color="#c8a96b"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="nodeShadow" x="-20%" y="-30%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="498" rx="28" fill="url(#bg)" stroke="#1f3650"/>
+  <path d="M0 105 C210 58 364 135 542 96 C706 60 887 118 1200 62" fill="none" stroke="#17314d" stroke-width="1.2" opacity="0.7"/>
+  <path d="M0 420 C264 374 367 453 609 406 C835 362 989 417 1200 386" fill="none" stroke="#142b43" stroke-width="1.1" opacity="0.7"/>
+
+  <text x="64" y="72" fill="#f4f7fa" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="700">From business need to operational value</text>
+  <text x="64" y="104" fill="#90a4b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">A connected operating model for EYAN Business Solutions</text>
+  <text x="1135" y="78" text-anchor="end" fill="#c8a96b" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="2">SYSTEMS THINKING</text>
+
+  <path id="flowPath" d="M110 267 C205 267 211 267 280 267 S393 267 454 267 S568 267 630 267 S742 267 806 267 S918 267 980 267 S1077 267 1110 267" fill="none" stroke="url(#line)" stroke-width="3" stroke-linecap="round" opacity="0.62"/>
+  <path d="M110 267 C205 267 211 267 280 267 S393 267 454 267 S568 267 630 267 S742 267 806 267 S918 267 980 267 S1077 267 1110 267" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1" stroke-dasharray="10 14">
+    <animate attributeName="stroke-dashoffset" values="0;-48" dur="8s" repeatCount="indefinite"/>
+  </path>
+
+  <g filter="url(#nodeShadow)">
+    <g transform="translate(42 178)">
+      <rect width="136" height="178" rx="20" fill="#0c1b2c" stroke="#31506f"/>
+      <circle cx="68" cy="48" r="25" fill="#102a43" stroke="#5f84a8"/>
+      <path d="M56 49h24M60 42h16M61 56h14" stroke="#dce7f1" stroke-width="2.2" stroke-linecap="round"/>
+      <text x="68" y="96" text-anchor="middle" fill="#f1f5f9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">Business</text>
+      <text x="68" y="118" text-anchor="middle" fill="#f1f5f9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">Need</text>
+      <text x="68" y="145" text-anchor="middle" fill="#8fa4b7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">Goals · constraints</text>
+      <text x="68" y="162" text-anchor="middle" fill="#8fa4b7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">value · scope</text>
+    </g>
+
+    <g transform="translate(214 178)">
+      <rect width="136" height="178" rx="20" fill="#0c1b2c" stroke="#31506f"/>
+      <circle cx="68" cy="48" r="25" fill="#102a43" stroke="#5f84a8"/>
+      <circle cx="60" cy="42" r="4" fill="#dce7f1"/><circle cx="77" cy="42" r="4" fill="#dce7f1"/><circle cx="68" cy="57" r="4" fill="#dce7f1"/>
+      <path d="M63 44l5 10 6-10" stroke="#dce7f1" stroke-width="1.8" fill="none"/>
+      <text x="68" y="104" text-anchor="middle" fill="#f1f5f9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">Processes</text>
+      <text x="68" y="139" text-anchor="middle" fill="#8fa4b7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">Workflows · roles</text>
+      <text x="68" y="156" text-anchor="middle" fill="#8fa4b7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">rules · exceptions</text>
+    </g>
+
+    <g transform="translate(386 178)">
+      <rect width="136" height="178" rx="20" fill="#0c1b2c" stroke="#31506f"/>
+      <circle cx="68" cy="48" r="25" fill="#102a43" stroke="#5f84a8"/>
+      <ellipse cx="68" cy="40" rx="13" ry="5" fill="none" stroke="#dce7f1" stroke-width="2"/>
+      <path d="M55 40v16c0 3 6 5 13 5s13-2 13-5V40M55 48c0 3 6 5 13 5s13-2 13-5" fill="none" stroke="#dce7f1" stroke-width="2"/>
+      <text x="68" y="104" text-anchor="middle" fill="#f1f5f9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">Data</text>
+      <text x="68" y="139" text-anchor="middle" fill="#8fa4b7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">Records · entities</text>
+      <text x="68" y="156" text-anchor="middle" fill="#8fa4b7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">ownership · integrity</text>
+    </g>
+
+    <g transform="translate(558 166)">
+      <rect width="150" height="202" rx="22" fill="#10233a" stroke="#c8a96b" stroke-width="1.4"/>
+      <circle cx="75" cy="50" r="29" fill="#122c47" stroke="#c8a96b"/>
+      <rect x="59" y="36" width="32" height="27" rx="4" fill="none" stroke="#f4f7fa" stroke-width="2"/>
+      <path d="M64 43h22M64 50h10M64 57h17" stroke="#f4f7fa" stroke-width="1.7" stroke-linecap="round"/>
+      <text x="75" y="111" text-anchor="middle" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">Operational</text>
+      <text x="75" y="133" text-anchor="middle" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">Systems</text>
+      <text x="75" y="162" text-anchor="middle" fill="#aab9c7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">POS · ERP · CRM</text>
+      <text x="75" y="179" text-anchor="middle" fill="#aab9c7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">web · internal tools</text>
+      <animate attributeName="opacity" values="0.92;1;0.92" dur="6s" repeatCount="indefinite"/>
+    </g>
+
+    <g transform="translate(744 178)">
+      <rect width="136" height="178" rx="20" fill="#0c1b2c" stroke="#31506f"/>
+      <circle cx="68" cy="48" r="25" fill="#102a43" stroke="#5f84a8"/>
+      <path d="M55 52h8l5-16 6 24 5-15h8" fill="none" stroke="#dce7f1" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="68" y="104" text-anchor="middle" fill="#f1f5f9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">Automation</text>
+      <text x="68" y="139" text-anchor="middle" fill="#8fa4b7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">Approvals · triggers</text>
+      <text x="68" y="156" text-anchor="middle" fill="#8fa4b7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">integrations · controls</text>
+    </g>
+
+    <g transform="translate(916 178)">
+      <rect width="136" height="178" rx="20" fill="#0c1b2c" stroke="#31506f"/>
+      <circle cx="68" cy="48" r="25" fill="#102a43" stroke="#5f84a8"/>
+      <path d="M56 58V48M65 58V41M74 58V45M83 58V34" stroke="#dce7f1" stroke-width="3" stroke-linecap="round"/>
+      <text x="68" y="104" text-anchor="middle" fill="#f1f5f9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">Insights</text>
+      <text x="68" y="139" text-anchor="middle" fill="#8fa4b7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">KPIs · dashboards</text>
+      <text x="68" y="156" text-anchor="middle" fill="#8fa4b7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">decisions · visibility</text>
+    </g>
+
+    <g transform="translate(1088 178)">
+      <rect width="86" height="178" rx="20" fill="#101d2d" stroke="#8f784d"/>
+      <circle cx="43" cy="48" r="23" fill="#1a2836" stroke="#c8a96b"/>
+      <path d="M31 56l8-8 6 5 11-14" fill="none" stroke="#f3e6c5" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M51 39h6v6" fill="none" stroke="#f3e6c5" stroke-width="2.3" stroke-linecap="round"/>
+      <text x="43" y="103" text-anchor="middle" fill="#f6f1e7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Growth</text>
+      <text x="43" y="137" text-anchor="middle" fill="#b9aa8e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">Control</text>
+      <text x="43" y="153" text-anchor="middle" fill="#b9aa8e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">Scale</text>
+    </g>
+  </g>
+
+  <circle r="7" fill="#f4f7fa" filter="url(#softGlow)">
+    <animateMotion dur="15s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#flowPath"/>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" dur="15s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="4" fill="#c8a96b" opacity="0.9">
+    <animateMotion dur="15s" begin="-7.5s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#flowPath"/>
+    </animateMotion>
+  </circle>
+
+  <text x="64" y="432" fill="#d8e2eb" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600">People + processes + data become one operating system.</text>
+  <text x="64" y="458" fill="#8196aa" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Automation reduces manual work. Visibility improves decisions. The system remains structured for future scale.</text>
+</svg>
