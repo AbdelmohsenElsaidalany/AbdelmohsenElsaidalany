@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Abdelmohsen Elsaidalany — Founder and Business Systems Lead at EYAN Business Solutions">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#071521"/>
+      <stop offset="0.6" stop-color="#0B1F33"/>
+      <stop offset="1" stop-color="#102A40"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#5E7891"/>
+      <stop offset="0.55" stop-color="#9FB5C7"/>
+      <stop offset="1" stop-color="#D7B77A"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="27" fill="none" stroke="#28445E" stroke-opacity="0.7"/>
+
+  <g opacity="0.2" stroke="#8FA8BF">
+    <path d="M0 292 H1200"/>
+    <path d="M0 318 H1200"/>
+    <path d="M805 0 V360"/>
+    <path d="M965 0 V360"/>
+  </g>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="68" y="105" fill="#F7FAFC" font-size="48" font-weight="700">Abdelmohsen Elsaidalany</text>
+    <text x="70" y="151" fill="#DCE7F0" font-size="23" font-weight="500">Founder &amp; Business Systems Lead</text>
+    <text x="70" y="191" fill="#91A8BC" font-size="18">Software Engineering · Business Analysis · Workflow Automation · Digital Operations</text>
+
+    <line x1="70" y1="222" x2="292" y2="222" stroke="#D7B77A" stroke-width="4" stroke-linecap="round"/>
+    <text x="70" y="264" fill="#FFFFFF" font-size="24" font-weight="700">EYAN</text>
+    <text x="137" y="264" fill="#C7D3DE" font-size="24">Business Solutions</text>
+    <text x="70" y="298" fill="#8299AD" font-size="14" letter-spacing="2">IDEAS  →  SYSTEMS  →  EFFICIENT OPERATIONS</text>
+  </g>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <rect x="830" y="58" width="140" height="58" rx="14" fill="#10283C" stroke="#45647E"/>
+    <text x="900" y="82" text-anchor="middle" fill="#EEF4F8" font-size="14">Business</text>
+    <text x="900" y="102" text-anchor="middle" fill="#9DB1C2" font-size="13">Needs</text>
+
+    <rect x="994" y="58" width="140" height="58" rx="14" fill="#10283C" stroke="#45647E"/>
+    <text x="1064" y="82" text-anchor="middle" fill="#EEF4F8" font-size="14">Solution</text>
+    <text x="1064" y="102" text-anchor="middle" fill="#9DB1C2" font-size="13">Design</text>
+
+    <rect x="830" y="145" width="140" height="58" rx="14" fill="#10283C" stroke="#45647E"/>
+    <text x="900" y="169" text-anchor="middle" fill="#EEF4F8" font-size="14">Engineering</text>
+    <text x="900" y="189" text-anchor="middle" fill="#9DB1C2" font-size="13">&amp; Data</text>
+
+    <rect x="994" y="145" width="140" height="58" rx="14" fill="#10283C" stroke="#45647E"/>
+    <text x="1064" y="169" text-anchor="middle" fill="#EEF4F8" font-size="14">Automation</text>
+    <text x="1064" y="189" text-anchor="middle" fill="#9DB1C2" font-size="13">&amp; Integration</text>
+
+    <rect x="912" y="232" width="140" height="58" rx="14" fill="#142B3F" stroke="#D7B77A" stroke-opacity="0.85"/>
+    <text x="982" y="256" text-anchor="middle" fill="#FFFFFF" font-size="14">Operational</text>
+    <text x="982" y="276" text-anchor="middle" fill="#C8D4DE" font-size="13">Systems</text>
+  </g>
+
+  <g fill="none" stroke="url(#line)" stroke-width="2.2" stroke-linecap="round" opacity="0.9">
+    <path id="p1" d="M970 87 H994"/>
+    <path id="p2" d="M900 116 V145"/>
+    <path id="p3" d="M1064 116 V145"/>
+    <path id="p4" d="M900 203 C900 225 922 242 938 248"/>
+    <path id="p5" d="M1064 203 C1064 225 1046 242 1026 248"/>
+  </g>
+
+  <circle r="4.5" fill="#E3C98F" filter="url(#soft)">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M970 87 H994 V174 C994 216 1015 236 1026 248"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <rect x="0" y="0" width="1200" height="360" rx="28" fill="none" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="2">
+    <animate attributeName="stroke-opacity" values="0.04;0.11;0.04" dur="8s" repeatCount="indefinite"/>
+  </rect>
+</svg>
