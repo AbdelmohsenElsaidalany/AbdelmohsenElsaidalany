@@ -1,95 +1,112 @@
-<h1 align="center">Abdelmohsen Elsaidalany</h1>
-<p align="center"><strong>Founder & Business Systems Lead — Eyan Business Solutions</strong></p>
-<p align="center">Software Engineer · Business Analyst · Project Management · Digital Operations</p>
-<p align="center"><em>Digital presence and systems built around real business workflows.</em></p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AbdelmohsenElsaidalany/AbdelmohsenElsaidalany/main/assets/profile/hero-corporate.svg?v=2" width="100%" alt="Abdelmohsen Elsaidalany — Founder & Business Systems Lead at EYAN Business Solutions">
+</p>
 
 <p align="center">
-  <a href="https://eyanbusinesssolutions.pages.dev/">Eyan Business Solutions</a> ·
-  <a href="https://wa.me/201068000309">WhatsApp</a> ·
-  <a href="https://instagram.com/eyan_business_solutions">Instagram</a> ·
+  <a href="https://eyanbusinesssolutions.pages.dev/"><strong>EYAN Business Solutions</strong></a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://wa.me/201068000309">WhatsApp</a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://instagram.com/eyan_business_solutions">Instagram</a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
   <a href="mailto:aelsaidalany@gmail.com">Email</a>
 </p>
 
-<p align="center">
-  <img alt="Websites" src="https://img.shields.io/badge/Websites-Digital%20Presence-111111">
-  <img alt="E-commerce" src="https://img.shields.io/badge/E--commerce-Stores-111111">
-  <img alt="Business Systems" src="https://img.shields.io/badge/Business%20Systems-POS%20%7C%20ERP%20%7C%20CRM-111111">
-  <img alt="Automation" src="https://img.shields.io/badge/Automation-Internal%20Tools-111111">
-  <img alt="Dashboards" src="https://img.shields.io/badge/Dashboards-Reports%20%26%20KPIs-111111">
-</p>
-
 ---
 
-## About
+## Business systems built around real operations
 
-I lead **Eyan Business Solutions**, a remote digital business solutions practice focused on turning real workflows into practical digital products and operating systems.
+I lead **EYAN Business Solutions**, a digital business solutions practice focused on turning real business workflows into structured digital products and operational systems.
 
-My work combines **technical execution, business analysis, project discipline, and digital operations**. The objective is not simply to build polished interfaces; it is to understand how a business works, define the right solution, and deliver websites, systems, dashboards, automation, identity, and launch assets around that reality.
+My work combines **software engineering, business analysis, project delivery, and digital operations**. I start with the business model, users, workflows, data, constraints, and required outcome — then shape the technology around that reality.
 
-> **Workflow before code.** We understand the business model, users, data, operating environment, constraints, and desired outcome before defining the technology or design.
+<table>
+<tr>
+<td width="25%" valign="top"><strong>Business Systems</strong><br><sub>POS · ERP · CRM · internal tools</sub></td>
+<td width="25%" valign="top"><strong>Digital Platforms</strong><br><sub>Websites · landing pages · e-commerce</sub></td>
+<td width="25%" valign="top"><strong>Automation & Data</strong><br><sub>Workflows · dashboards · reports · integrations</sub></td>
+<td width="25%" valign="top"><strong>Launch & Growth</strong><br><sub>Brand systems · digital setup · launch support</sub></td>
+</tr>
+</table>
 
-## What EYAN builds
+> **Workflow before code.** Understand the operation first, then design the system, data, interfaces, controls, integrations, and delivery path.
 
-| Area | Scope |
+## Workflow-first delivery
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AbdelmohsenElsaidalany/AbdelmohsenElsaidalany/main/assets/profile/workflow-corporate.svg?v=2" width="100%" alt="EYAN workflow-first delivery process">
+</p>
+
+The delivery path connects the business need to measurable operational value:
+
+**Business Case** → **Discovery** → **Requirements** → **Solution Design** → **Engineering** → **Verification & Deployment** → **Support & Improvement**
+
+Each stage keeps the final solution traceable to a real business objective instead of treating software as an isolated technical deliverable.
+
+## What EYAN delivers
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Digital presence
+Company websites, landing pages, e-commerce experiences, visual identity, digital launch assets, and supporting materials designed to make the business clear and credible online.
+
+</td>
+<td width="50%" valign="top">
+
+### Operational systems
+POS, ERP, CRM, internal tools, approvals, validation rules, reporting, and workflow automation designed around how the organization actually operates.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Data & visibility
+Dashboards and reports that turn operational information into indicators owners and teams can monitor and use for decision-making.
+
+</td>
+<td width="50%" valign="top">
+
+### Connected operations
+Integrations and process design that reduce duplicated work, improve information flow, connect tools, and create foundations for sustainable growth.
+
+</td>
+</tr>
+</table>
+
+## Delivery principles
+
+| Principle | Application |
 | --- | --- |
-| **Web & Landing Pages** | Company websites and focused landing pages designed to explain services, build trust, and drive contact |
-| **E-commerce Stores** | Product catalogs, order flows, offers, checkout direction, admin control, and future integration readiness |
-| **POS Systems** | Sales, invoices, stock movement, returns, users, and daily closing |
-| **ERP Systems** | Inventory, purchasing, expenses, departments, approvals, and reporting |
-| **CRM Systems** | Customers, leads, follow-ups, requests, and service opportunities |
-| **Internal Tools & Automation** | Admin panels, forms, approvals, validation rules, workflow tools, and integrations |
-| **Dashboards & Reports** | Operational data transformed into indicators owners can monitor |
-| **Brand Identity Systems** | Logo systems, visual identity, guidelines, and business applications |
-| **Launch Systems** | Social launch assets, profile setup, captions, campaign materials, and launch support |
-
-## How I approach delivery
-
-EYAN uses a structured software and business-solution lifecycle. The depth changes with project scope and risk, while maintaining traceability from the business need through delivery and ongoing operation.
-
-1. **Qualification, governance & business case** — validate the problem, value, feasibility, ownership, scope boundaries, and decision rights.
-2. **Discovery, requirements & domain analysis** — define workflows, users, rules, data, permissions, exceptions, reports, and acceptance criteria.
-3. **UX, UI & solution design** — design task flows, information architecture, interfaces, solution architecture, and delivery direction around real usage.
-4. **Data, backend & frontend engineering** — build governed data models, business rules, interfaces, validation, and maintainable implementation.
-5. **Integration, DevOps, verification & security** — prepare environments, integrations, quality checks, performance, recovery, security, and release readiness.
-6. **Migration, training, deployment & hypercare** — prepare data and users, deploy with controlled cutover, validate production, and stabilize operations.
-7. **Operations, improvement & lifecycle management** — support users, monitor outcomes, maintain reliability, improve from evidence, and evolve responsibly.
-
-The wider EYAN framework covers **17 lifecycle phases**, from pre-initiation through operations, improvement, scale, replacement, or controlled retirement.
+| **Business-aligned** | Start from the problem, value, users, operating environment, and required outcome |
+| **Process-driven** | Map workflows, rules, permissions, data, exceptions, and acceptance criteria before implementation |
+| **System-minded** | Treat interfaces, backend logic, data, integrations, reporting, and operations as one connected solution |
+| **Delivery-focused** | Use structured stages, milestones, verification, deployment planning, handover, and support |
+| **Built to evolve** | Create foundations that can grow into new modules, dashboards, integrations, automation, or channels |
 
 ## Business environments
 
-EYAN solutions are shaped around the operating model rather than a fixed technology package.
+**Retail & stores** · **Service businesses** · **Tourism & travel** · **E-commerce brands** · **Startups & new brands** · **Growing operations**
 
-- **Retail & stores** — POS, inventory, branches, reporting, and e-commerce readiness.
-- **Service businesses** — websites, requests, CRM, customer follow-up, and dashboards.
-- **Tourism & travel** — identity, package presentation, booking flow, and launch assets.
-- **E-commerce brands** — stores, product management, orders, campaigns, and integrations.
-- **Startups & new brands** — identity, landing pages, launch systems, and scalable foundations.
-- **Growing operations** — ERP modules, approvals, branches, users, reporting, and automation.
-
-## Working principles
-
-- **Start from the business need, not the technology name.**
-- **Understand the workflow before designing the system.**
-- **Translate requirements into clear modules, rules, and user flows.**
-- **Treat websites, systems, data, identity, and launch assets as connected parts of the business.**
-- **Use milestones, reviews, acceptance criteria, and practical handover.**
-- **Build foundations that can grow into additional modules, dashboards, integrations, e-commerce, or automation.**
-
-## Collaboration
-
-Project scope and pricing are defined after understanding the business type, users, branches, required modules, design needs, integrations, support expectations, and operational risk.
-
-**Scope before cost · Milestones and acceptance criteria · Support and maintenance by agreement**
+EYAN adapts the solution to the operating model rather than forcing every business into the same technology package.
 
 ---
 
-<p align="center"><strong>Eyan Business Solutions</strong></p>
-<p align="center">Websites · E-commerce · POS · ERP · CRM · Dashboards · Automation · Brand Identity · Launch Systems</p>
 <p align="center">
-  <a href="https://eyanbusinesssolutions.pages.dev/">Website</a> ·
-  <a href="https://wa.me/201068000309">Start a consultation</a> ·
+  <strong>EYAN Business Solutions</strong><br>
+  <sub>Ideas → Systems → Efficient Operations</sub>
+</p>
+
+<p align="center">
+  <a href="https://eyanbusinesssolutions.pages.dev/">Website</a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://wa.me/201068000309">Start a consultation</a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
   <a href="mailto:aelsaidalany@gmail.com">aelsaidalany@gmail.com</a>
 </p>
 
-<p align="center" dir="rtl">نبدأ من طريقة عمل البزنس واحتياجاته الفعلية، ثم نبني الحضور الرقمي أو النظام المناسب حول الـ workflow الحقيقي.</p>
+<p align="center" dir="rtl">
+  نبدأ من طريقة عمل البزنس واحتياجاته الفعلية، ثم نبني الحضور الرقمي أو النظام المناسب حول الـ workflow الحقيقي.
+</p>
