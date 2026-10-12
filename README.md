@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AbdelmohsenElsaidalany/AbdelmohsenElsaidalany/main/assets/profile/hero-corporate.svg?v=2" width="100%" alt="Abdelmohsen Elsaidalany — Founder & Business Systems Lead at EYAN Business Solutions">
+  <img src="https://raw.githubusercontent.com/AbdelmohsenElsaidalany/AbdelmohsenElsaidalany/main/assets/profile/hero-corporate.svg?v=3" width="100%" alt="Abdelmohsen Elsaidalany — Founder & Business Systems Lead at EYAN Business Solutions">
 </p>
 
 <p align="center">
@@ -34,7 +34,7 @@ My work combines **software engineering, business analysis, project delivery, an
 ## Workflow-first delivery
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AbdelmohsenElsaidalany/AbdelmohsenElsaidalany/main/assets/profile/workflow-corporate.svg?v=2" width="100%" alt="EYAN workflow-first delivery process">
+  <img src="https://raw.githubusercontent.com/AbdelmohsenElsaidalany/AbdelmohsenElsaidalany/main/assets/profile/workflow-corporate.svg?v=3" width="100%" alt="EYAN workflow-first delivery process">
 </p>
 
 The delivery path connects the business need to measurable operational value:
@@ -42,6 +42,22 @@ The delivery path connects the business need to measurable operational value:
 **Business Case** → **Discovery** → **Requirements** → **Solution Design** → **Engineering** → **Verification & Deployment** → **Support & Improvement**
 
 Each stage keeps the final solution traceable to a real business objective instead of treating software as an isolated technical deliverable.
+
+## Connected system thinking
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AbdelmohsenElsaidalany/AbdelmohsenElsaidalany/main/assets/profile/system-map-corporate.svg?v=1" width="100%" alt="EYAN connected business systems map">
+</p>
+
+A useful business system is more than an interface. It connects **business needs, workflows, data, operational systems, automation, and management visibility** into one coherent operating model.
+
+<table>
+<tr>
+<td width="33%" valign="top"><strong>Control</strong><br><sub>Clear rules, roles, data ownership, approvals, and traceable operations.</sub></td>
+<td width="33%" valign="top"><strong>Efficiency</strong><br><sub>Less duplicated work, fewer manual handoffs, and better information flow.</sub></td>
+<td width="33%" valign="top"><strong>Scalability</strong><br><sub>Foundations that can grow into new modules, channels, dashboards, and integrations.</sub></td>
+</tr>
+</table>
 
 ## What EYAN delivers
 
